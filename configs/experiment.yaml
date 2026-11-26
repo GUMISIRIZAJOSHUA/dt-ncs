@@ -1,0 +1,54 @@
+shift_duration_s: 28800
+monitoring_rate_hz: 10
+fatigue_update_rate_hz: 1
+replicates_per_arm: 30
+pilot_replicates_per_arm: 1
+arms:
+- B1
+- B2
+- B3a
+- B3b
+- B3
+disturbances_per_shift: 2
+carbon_profile: diurnal
+fatigue_noise_sigma: 0.1
+fatigue_critical_threshold: 0.8
+ergonomic_critical_threshold: 0.8
+collision_critical_threshold: 0.8
+safe_zone_critical_threshold: 0.8
+weights:
+  productivity: 0.25
+  quality: 0.15
+  wellbeing: 0.25
+  sustainability: 0.2
+  collaboration: 0.15
+harrington_soft_thresholds:
+  productivity: 0.6
+  quality: 0.6
+  wellbeing: 0.95
+  sustainability: 0.6
+  collaboration: 0.6
+harrington_k: 200.0
+harrington_p: 2.0
+supervisory_budget_s:
+  8: 2.0
+  12: 3.0
+  20: 5.0
+job_quantities:
+  1: 100
+  2: 100
+  3: 100
+  4: 100
+  5: 100
+  6: 100
+  7: 100
+  8: 100
+  9: 100
+  10: 100
+  11: 100
+  12: 100
+workload_provenance: user_approved_2026-11-24;synthetic_balanced_100_jobs_per_task_type;1200_jobs_total;selected_after_approved_10_shift_engineering_sizing;results/engineering_workload_sizing_20261124_081316_759450
+disturbance_types:
+- operator_absence
+- robot_degradation
+disturbance_provenance: user_approved_synthetic_policy_2026-11-24;independent_type_and_target_sampling;two_events_not_one_guaranteed_per_type;legacy_uncalibrated_timing_and_severity;dispatch_time_non_preemptive_effects

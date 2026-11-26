@@ -1,0 +1,108 @@
+tasks:
+  - id: 1
+    name: "Screw fastening M6x25"
+    manual_time_s: 22.5
+    robot_time_s: 14.0
+    fatigue_coefficient: 2.1
+    cognitive_load: 0.35
+    robot_energy_kj: 45.2
+    defect_risk: 0.015
+
+  - id: 2
+    name: "Connector insertion"
+    manual_time_s: 18.0
+    robot_time_s: 12.5
+    fatigue_coefficient: 1.8
+    cognitive_load: 0.20
+    robot_energy_kj: 38.0
+    defect_risk: 0.010
+
+  - id: 3
+    name: "Wire harness routing"
+    manual_time_s: 35.0
+    robot_time_s: 22.0
+    fatigue_coefficient: 4.2
+    cognitive_load: 0.65
+    robot_energy_kj: 72.5
+    defect_risk: 0.032
+
+  - id: 4
+    name: "Clip installation"
+    manual_time_s: 14.5
+    robot_time_s: 9.0
+    fatigue_coefficient: 1.2
+    cognitive_load: 0.15
+    robot_energy_kj: 28.1
+    defect_risk: 0.008
+
+  - id: 5
+    name: "Heavy component positioning"
+    manual_time_s: 42.0
+    robot_time_s: 28.5
+    fatigue_coefficient: 5.0
+    cognitive_load: 0.75
+    robot_energy_kj: 95.0
+    defect_risk: 0.045
+
+  - id: 6
+    name: "Torque tightening"
+    manual_time_s: 26.0
+    robot_time_s: 16.0
+    fatigue_coefficient: 2.5
+    cognitive_load: 0.40
+    robot_energy_kj: 50.4
+    defect_risk: 0.018
+
+  - id: 7
+    name: "Small part assembly"
+    manual_time_s: 11.0
+    robot_time_s: 7.5
+    fatigue_coefficient: 0.8
+    cognitive_load: 0.10
+    robot_energy_kj: 18.5
+    defect_risk: 0.005
+
+  - id: 8
+    name: "Bracket installation"
+    manual_time_s: 31.5
+    robot_time_s: 19.0
+    fatigue_coefficient: 3.6
+    cognitive_load: 0.55
+    robot_energy_kj: 64.0
+    defect_risk: 0.025
+
+  - id: 9
+    name: "Cable tie routing"
+    manual_time_s: 20.0
+    robot_time_s: 13.0
+    fatigue_coefficient: 2.0
+    cognitive_load: 0.25
+    robot_energy_kj: 41.0
+    defect_risk: 0.012
+
+  - id: 10
+    name: "Subassembly positioning"
+    manual_time_s: 48.5
+    robot_time_s: 32.0
+    fatigue_coefficient: 5.5
+    cognitive_load: 0.80
+    robot_energy_kj: 110.5
+    defect_risk: 0.052
+
+  - id: 11
+    name: "Quick connector assembly"
+    manual_time_s: 16.5
+    robot_time_s: 10.5
+    fatigue_coefficient: 1.4
+    cognitive_load: 0.18
+    robot_energy_kj: 31.2
+    defect_risk: 0.009
+
+  - id: 12
+    name: "Final assembly check"
+    manual_time_s: 28.0
+    robot_time_s: 17.5
+    fatigue_coefficient: 2.9
+    cognitive_load: 0.45
+    robot_energy_kj: 55.0
+    defect_risk: 0.021

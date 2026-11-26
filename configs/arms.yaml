@@ -1,0 +1,25 @@
+arms:
+  B1:
+    name: "Productivity-first"
+    veto: false
+    objective: "productivity"
+
+  B2:
+    name: "Weighted sum"
+    veto: false
+    objective: "weighted_sum"
+
+  B3a:
+    name: "Veto + weighted sum"
+    veto: true
+    objective: "weighted_sum"
+
+  B3b:
+    name: "Veto + Synergy Score"
+    veto: true
+    objective: "multiplicative_synergy"
+
+  B3:
+    name: "Proposed DT-NCS"
+    veto: true
+    objective: "multiplicative_synergy_harrington"

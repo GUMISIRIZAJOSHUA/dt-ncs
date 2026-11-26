@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DT-NCS: event-triggered digital-twin scheduling for human-robot collaborative assembly"
+version: v1.0.0
+date-released: 2026-11-26
+license: MIT
+repository-code: "https://github.com/GUMISIRIZAJOSHUA/dt-ncs"
+authors:
+  - family-names: "Gumisiriza"
+    given-names: "Joshuaa"
+    affiliation: "School of Mechanical and Electrical Engineering, Henan University of Technology, Zhengzhou 450001, China; School of Design and Art, Henan University of Technology, Zhengzhou 450001, China"
