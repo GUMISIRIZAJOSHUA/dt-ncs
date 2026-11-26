@@ -1,0 +1,4 @@
+case,attempt_outcomes,late_ack_after_timeout,executions,duplicate_execution,lost_completion,inconsistent_occupancy
+delayed_ack,timeout then ack,True,2,True,False,True
+missing_command,timeout then ack,False,1,False,False,False
+rejected_invalid_marker,reject then reject,False,0,False,False,False

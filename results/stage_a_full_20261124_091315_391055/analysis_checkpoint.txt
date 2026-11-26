@@ -1,0 +1,29 @@
+ANALYSIS CHECKPOINT - SYNTHETIC BENCHMARK
+Run: stage_a_full_20261124_091315_391055
+Completeness: 150 metric rows; 30 per arm; matching scenario-ID sets; no duplicate arm/scenario pairs.
+Fatigue parameters: configs/fatigue_synthetic_benchmark.yaml; not calibrated real-world parameters.
+
+RESULTS
+Total completed jobs: B1=33025; B2=32212; B3a=32184; B3b=32186; B3=32182.
+B3 versus B2: one fewer completed job per eight-hour shift on average; lower endpoint fatigue; zero recorded flagged-unsafe executions versus mean 523.966667 per shift for B2.
+B3 endpoint fatigue was lower than B2, B3a, and B3b, with Holm-adjusted p-values below 0.05.
+B3 overall score was higher than B2, B3a, and B3b, with Holm-adjusted p-values below 0.05.
+B3b versus B3a: no demonstrated improvement in the examined outcomes; this does not establish equivalence.
+
+STATISTICS
+Paired by scenario ID; two-sided paired t-tests; original confidence intervals are unadjusted 95 percent intervals.
+Effect size stored as cohens_d uses the standard deviation of paired differences: paired-sample dz.
+Post hoc Holm adjustment across 120 unique metric-arm-pair comparisons saved in paired_comparisons_holm_120.csv.
+
+REPORTING LIMITATIONS
+Endpoint ergonomic risk = 0.65 times endpoint fatigue for fatigue in [0,1], because endpoint cognitive load is zero.
+Well-being score = 1 - 0.86 times endpoint fatigue; these derived indices are not independent evidence.
+Overall-score throughput contribution is capped at 120 jobs/hour and was saturated in the reported shifts.
+Safety violations count executed assignments flagged unsafe at selection; zero is not proof of real-world safety.
+Geometry checks use resource IDs as positions; continuous safety traces were not recorded.
+Observation ends at dispatch termination; post-dispatch recovery is not simulated.
+All shifts stopped with no_fitting_assignment near the shift boundary; backlog completion is not established.
+
+STATUS
+Completed synthetic benchmark; not real-world validation or approval of production use.
+Original simulation outputs retained unchanged.

@@ -1,0 +1,487 @@
+{
+  "run_type": "approved_engineering_workload_sizing",
+  "not_pilot_or_main_experiment": true,
+  "quantities_per_task_type": [
+    50,
+    100
+  ],
+  "planned_shifts": 10,
+  "selected_seeds": [
+    {
+      "arm": "B1",
+      "replicate": 1,
+      "scenario_seed": 1001,
+      "search_seed": 2010
+    },
+    {
+      "arm": "B2",
+      "replicate": 1,
+      "scenario_seed": 1001,
+      "search_seed": 2011
+    },
+    {
+      "arm": "B3a",
+      "replicate": 1,
+      "scenario_seed": 1001,
+      "search_seed": 2012
+    },
+    {
+      "arm": "B3b",
+      "replicate": 1,
+      "scenario_seed": 1001,
+      "search_seed": 2013
+    },
+    {
+      "arm": "B3",
+      "replicate": 1,
+      "scenario_seed": 1001,
+      "search_seed": 2014
+    }
+  ],
+  "effective_configs": {
+    "50": {
+      "shift_duration_s": 28800,
+      "monitoring_rate_hz": 10,
+      "fatigue_update_rate_hz": 1,
+      "replicates_per_arm": 30,
+      "pilot_replicates_per_arm": 1,
+      "arms": [
+        "B1",
+        "B2",
+        "B3a",
+        "B3b",
+        "B3"
+      ],
+      "disturbances_per_shift": 2,
+      "carbon_profile": "diurnal",
+      "fatigue_noise_sigma": 0.1,
+      "fatigue_critical_threshold": 0.8,
+      "ergonomic_critical_threshold": 0.8,
+      "collision_critical_threshold": 0.8,
+      "safe_zone_critical_threshold": 0.8,
+      "weights": {
+        "productivity": 0.25,
+        "quality": 0.15,
+        "wellbeing": 0.25,
+        "sustainability": 0.2,
+        "collaboration": 0.15
+      },
+      "harrington_soft_thresholds": {
+        "productivity": 0.6,
+        "quality": 0.6,
+        "wellbeing": 0.95,
+        "sustainability": 0.6,
+        "collaboration": 0.6
+      },
+      "harrington_k": 200.0,
+      "harrington_p": 2.0,
+      "supervisory_budget_s": {
+        "8": 2.0,
+        "12": 3.0,
+        "20": 5.0
+      },
+      "tasks": [
+        {
+          "id": 1,
+          "name": "Screw fastening M6x25",
+          "manual_time_s": 22.5,
+          "robot_time_s": 14.0,
+          "fatigue_coefficient": 2.1,
+          "cognitive_load": 0.35,
+          "robot_energy_kj": 45.2,
+          "defect_risk": 0.015
+        },
+        {
+          "id": 2,
+          "name": "Connector insertion",
+          "manual_time_s": 18.0,
+          "robot_time_s": 12.5,
+          "fatigue_coefficient": 1.8,
+          "cognitive_load": 0.2,
+          "robot_energy_kj": 38.0,
+          "defect_risk": 0.01
+        },
+        {
+          "id": 3,
+          "name": "Wire harness routing",
+          "manual_time_s": 35.0,
+          "robot_time_s": 22.0,
+          "fatigue_coefficient": 4.2,
+          "cognitive_load": 0.65,
+          "robot_energy_kj": 72.5,
+          "defect_risk": 0.032
+        },
+        {
+          "id": 4,
+          "name": "Clip installation",
+          "manual_time_s": 14.5,
+          "robot_time_s": 9.0,
+          "fatigue_coefficient": 1.2,
+          "cognitive_load": 0.15,
+          "robot_energy_kj": 28.1,
+          "defect_risk": 0.008
+        },
+        {
+          "id": 5,
+          "name": "Heavy component positioning",
+          "manual_time_s": 42.0,
+          "robot_time_s": 28.5,
+          "fatigue_coefficient": 5.0,
+          "cognitive_load": 0.75,
+          "robot_energy_kj": 95.0,
+          "defect_risk": 0.045
+        },
+        {
+          "id": 6,
+          "name": "Torque tightening",
+          "manual_time_s": 26.0,
+          "robot_time_s": 16.0,
+          "fatigue_coefficient": 2.5,
+          "cognitive_load": 0.4,
+          "robot_energy_kj": 50.4,
+          "defect_risk": 0.018
+        },
+        {
+          "id": 7,
+          "name": "Small part assembly",
+          "manual_time_s": 11.0,
+          "robot_time_s": 7.5,
+          "fatigue_coefficient": 0.8,
+          "cognitive_load": 0.1,
+          "robot_energy_kj": 18.5,
+          "defect_risk": 0.005
+        },
+        {
+          "id": 8,
+          "name": "Bracket installation",
+          "manual_time_s": 31.5,
+          "robot_time_s": 19.0,
+          "fatigue_coefficient": 3.6,
+          "cognitive_load": 0.55,
+          "robot_energy_kj": 64.0,
+          "defect_risk": 0.025
+        },
+        {
+          "id": 9,
+          "name": "Cable tie routing",
+          "manual_time_s": 20.0,
+          "robot_time_s": 13.0,
+          "fatigue_coefficient": 2.0,
+          "cognitive_load": 0.25,
+          "robot_energy_kj": 41.0,
+          "defect_risk": 0.012
+        },
+        {
+          "id": 10,
+          "name": "Subassembly positioning",
+          "manual_time_s": 48.5,
+          "robot_time_s": 32.0,
+          "fatigue_coefficient": 5.5,
+          "cognitive_load": 0.8,
+          "robot_energy_kj": 110.5,
+          "defect_risk": 0.052
+        },
+        {
+          "id": 11,
+          "name": "Quick connector assembly",
+          "manual_time_s": 16.5,
+          "robot_time_s": 10.5,
+          "fatigue_coefficient": 1.4,
+          "cognitive_load": 0.18,
+          "robot_energy_kj": 31.2,
+          "defect_risk": 0.009
+        },
+        {
+          "id": 12,
+          "name": "Final assembly check",
+          "manual_time_s": 28.0,
+          "robot_time_s": 17.5,
+          "fatigue_coefficient": 2.9,
+          "cognitive_load": 0.45,
+          "robot_energy_kj": 55.0,
+          "defect_risk": 0.021
+        }
+      ],
+      "job_quantities": {
+        "1": 50,
+        "2": 50,
+        "3": 50,
+        "4": 50,
+        "5": 50,
+        "6": 50,
+        "7": 50,
+        "8": 50,
+        "9": 50,
+        "10": 50,
+        "11": 50,
+        "12": 50
+      },
+      "disturbance_types": [
+        "operator_absence",
+        "robot_degradation"
+      ],
+      "workload_provenance": "approved_engineering_sizing_equal_quantity_per_task_type",
+      "disturbance_provenance": "approved_synthetic_policy;independent_type_and_target_sampling;legacy_uncalibrated_timing_and_severity;dispatch_time_non_preemptive_effects"
+    },
+    "100": {
+      "shift_duration_s": 28800,
+      "monitoring_rate_hz": 10,
+      "fatigue_update_rate_hz": 1,
+      "replicates_per_arm": 30,
+      "pilot_replicates_per_arm": 1,
+      "arms": [
+        "B1",
+        "B2",
+        "B3a",
+        "B3b",
+        "B3"
+      ],
+      "disturbances_per_shift": 2,
+      "carbon_profile": "diurnal",
+      "fatigue_noise_sigma": 0.1,
+      "fatigue_critical_threshold": 0.8,
+      "ergonomic_critical_threshold": 0.8,
+      "collision_critical_threshold": 0.8,
+      "safe_zone_critical_threshold": 0.8,
+      "weights": {
+        "productivity": 0.25,
+        "quality": 0.15,
+        "wellbeing": 0.25,
+        "sustainability": 0.2,
+        "collaboration": 0.15
+      },
+      "harrington_soft_thresholds": {
+        "productivity": 0.6,
+        "quality": 0.6,
+        "wellbeing": 0.95,
+        "sustainability": 0.6,
+        "collaboration": 0.6
+      },
+      "harrington_k": 200.0,
+      "harrington_p": 2.0,
+      "supervisory_budget_s": {
+        "8": 2.0,
+        "12": 3.0,
+        "20": 5.0
+      },
+      "tasks": [
+        {
+          "id": 1,
+          "name": "Screw fastening M6x25",
+          "manual_time_s": 22.5,
+          "robot_time_s": 14.0,
+          "fatigue_coefficient": 2.1,
+          "cognitive_load": 0.35,
+          "robot_energy_kj": 45.2,
+          "defect_risk": 0.015
+        },
+        {
+          "id": 2,
+          "name": "Connector insertion",
+          "manual_time_s": 18.0,
+          "robot_time_s": 12.5,
+          "fatigue_coefficient": 1.8,
+          "cognitive_load": 0.2,
+          "robot_energy_kj": 38.0,
+          "defect_risk": 0.01
+        },
+        {
+          "id": 3,
+          "name": "Wire harness routing",
+          "manual_time_s": 35.0,
+          "robot_time_s": 22.0,
+          "fatigue_coefficient": 4.2,
+          "cognitive_load": 0.65,
+          "robot_energy_kj": 72.5,
+          "defect_risk": 0.032
+        },
+        {
+          "id": 4,
+          "name": "Clip installation",
+          "manual_time_s": 14.5,
+          "robot_time_s": 9.0,
+          "fatigue_coefficient": 1.2,
+          "cognitive_load": 0.15,
+          "robot_energy_kj": 28.1,
+          "defect_risk": 0.008
+        },
+        {
+          "id": 5,
+          "name": "Heavy component positioning",
+          "manual_time_s": 42.0,
+          "robot_time_s": 28.5,
+          "fatigue_coefficient": 5.0,
+          "cognitive_load": 0.75,
+          "robot_energy_kj": 95.0,
+          "defect_risk": 0.045
+        },
+        {
+          "id": 6,
+          "name": "Torque tightening",
+          "manual_time_s": 26.0,
+          "robot_time_s": 16.0,
+          "fatigue_coefficient": 2.5,
+          "cognitive_load": 0.4,
+          "robot_energy_kj": 50.4,
+          "defect_risk": 0.018
+        },
+        {
+          "id": 7,
+          "name": "Small part assembly",
+          "manual_time_s": 11.0,
+          "robot_time_s": 7.5,
+          "fatigue_coefficient": 0.8,
+          "cognitive_load": 0.1,
+          "robot_energy_kj": 18.5,
+          "defect_risk": 0.005
+        },
+        {
+          "id": 8,
+          "name": "Bracket installation",
+          "manual_time_s": 31.5,
+          "robot_time_s": 19.0,
+          "fatigue_coefficient": 3.6,
+          "cognitive_load": 0.55,
+          "robot_energy_kj": 64.0,
+          "defect_risk": 0.025
+        },
+        {
+          "id": 9,
+          "name": "Cable tie routing",
+          "manual_time_s": 20.0,
+          "robot_time_s": 13.0,
+          "fatigue_coefficient": 2.0,
+          "cognitive_load": 0.25,
+          "robot_energy_kj": 41.0,
+          "defect_risk": 0.012
+        },
+        {
+          "id": 10,
+          "name": "Subassembly positioning",
+          "manual_time_s": 48.5,
+          "robot_time_s": 32.0,
+          "fatigue_coefficient": 5.5,
+          "cognitive_load": 0.8,
+          "robot_energy_kj": 110.5,
+          "defect_risk": 0.052
+        },
+        {
+          "id": 11,
+          "name": "Quick connector assembly",
+          "manual_time_s": 16.5,
+          "robot_time_s": 10.5,
+          "fatigue_coefficient": 1.4,
+          "cognitive_load": 0.18,
+          "robot_energy_kj": 31.2,
+          "defect_risk": 0.009
+        },
+        {
+          "id": 12,
+          "name": "Final assembly check",
+          "manual_time_s": 28.0,
+          "robot_time_s": 17.5,
+          "fatigue_coefficient": 2.9,
+          "cognitive_load": 0.45,
+          "robot_energy_kj": 55.0,
+          "defect_risk": 0.021
+        }
+      ],
+      "job_quantities": {
+        "1": 100,
+        "2": 100,
+        "3": 100,
+        "4": 100,
+        "5": 100,
+        "6": 100,
+        "7": 100,
+        "8": 100,
+        "9": 100,
+        "10": 100,
+        "11": 100,
+        "12": 100
+      },
+      "disturbance_types": [
+        "operator_absence",
+        "robot_degradation"
+      ],
+      "workload_provenance": "approved_engineering_sizing_equal_quantity_per_task_type",
+      "disturbance_provenance": "approved_synthetic_policy;independent_type_and_target_sampling;legacy_uncalibrated_timing_and_severity;dispatch_time_non_preemptive_effects"
+    }
+  },
+  "arms": {
+    "arms": {
+      "B1": {
+        "name": "Productivity-first",
+        "veto": false,
+        "objective": "productivity"
+      },
+      "B2": {
+        "name": "Weighted sum",
+        "veto": false,
+        "objective": "weighted_sum"
+      },
+      "B3a": {
+        "name": "Veto + weighted sum",
+        "veto": true,
+        "objective": "weighted_sum"
+      },
+      "B3b": {
+        "name": "Veto + Synergy Score",
+        "veto": true,
+        "objective": "multiplicative_synergy"
+      },
+      "B3": {
+        "name": "Proposed DT-NCS",
+        "veto": true,
+        "objective": "multiplicative_synergy_harrington"
+      }
+    }
+  },
+  "fatigue_parameters": {
+    "step_size_s": 0.5,
+    "operators": {
+      "1": {
+        "initial_fatigue": 0.1,
+        "alpha_per_s": 0.001,
+        "beta": 0.0,
+        "rho_per_s": 0.001,
+        "fatigue_limit": 0.8
+      },
+      "2": {
+        "initial_fatigue": 0.1,
+        "alpha_per_s": 0.001,
+        "beta": 0.0,
+        "rho_per_s": 0.001,
+        "fatigue_limit": 0.8
+      }
+    },
+    "task_demands": {
+      "1": 0.5,
+      "2": 0.5,
+      "3": 0.5,
+      "4": 0.5,
+      "5": 0.5,
+      "6": 0.5,
+      "7": 0.5,
+      "8": 0.5,
+      "9": 0.5,
+      "10": 0.5,
+      "11": 0.5,
+      "12": 0.5
+    }
+  },
+  "fatigue_parameter_source": "C:\\Users\\Josh\\dt_ncs_experiment_repair\\configs\\fatigue_synthetic_benchmark.yaml",
+  "input_sha256": {
+    "configs\\experiment.yaml": "e75eda254abd786928b4c23a675f0e891f59e35dee7c35dc441310c9937a6302",
+    "configs\\tasks.yaml": "e35ea9b5c6c87c6a67e077434f605d979b38043a1ef55e4383fcf4f522d63473",
+    "configs\\arms.yaml": "0259850012e4c5b44a2432e331c451a5643a10a0c9c8a285ce1056fdf0420067",
+    "configs\\seeds.csv": "a76ddeb739f4c259bbb1b90c80c403d939ddc3b9544bd856d8c5cadcfb95901b",
+    "configs\\fatigue_synthetic_benchmark.yaml": "1539e2138cc1add9e8d313e960dff9544e156d1b3e6ea4b921eb45d6e3e0295f"
+  },
+  "interpretation": {
+    "scheduling": "sequential_non_preemptive_dispatch_time",
+    "observation": "dispatch_termination_not_fixed_end_of_shift",
+    "event_overlap": "Overlap is not proof of causal effect. An absent operator can be excluded without an overlapping assignment. Mid-assignment event changes do not alter that assignment.",
+    "selection": "Prefer the smallest candidate retaining backlog across all arms through the shift; inspect other early termination reasons before freezing quantities."
+  }
+}

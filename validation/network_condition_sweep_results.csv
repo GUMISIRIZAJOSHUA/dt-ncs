@@ -1,0 +1,2 @@
+condition,base_latency_ms,jitter_ms,packet_loss_probability,assignments_executed,scheduler_makespan_s,simulator_makespan_s,makespan_difference_s,commands_sent,commands_succeeded,commands_dropped,commands_retried,unrecoverable_failures,mean_local_rtt_ms,maximum_local_rtt_ms,safety_violations,veto_events
+degraded_delay,100.0,20.0,0.03,12,358.01904978663555,358.0000000000471,-0.019049786588425377,14367,14367,445,445,0,3.7005504976904295,132.80500000109896,0,183

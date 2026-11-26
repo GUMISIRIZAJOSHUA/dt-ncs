@@ -1,0 +1,3 @@
+arm,assignment_index,task_id,operator_id,robot_id,planned_start_s,planned_completion_s,planned_duration_s,executed_start_s,executed_end_s,executed_duration_s,energy_kj,vetoed,safety_violation,start_marker,end_marker
+B3,1,7,4,2,0.0,11.634328095036063,11.634328095036063,0.015671904963967975,11.65000000000003,11.634328095036063,18.5,False,False,Task_A_Start,Task_A_End
+B3,2,7,3,2,11.634328095036063,23.87517645281629,12.24084835778023,11.659151642219975,23.900000000000205,12.24084835778023,18.5,False,False,Task_B_Start,Task_B_End

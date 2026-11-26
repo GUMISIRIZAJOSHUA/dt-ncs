@@ -1,0 +1,26 @@
+[
+  {
+    "event_type": "robot_degradation",
+    "target_resource_id": 1,
+    "start_time_s": 4490.961202942499,
+    "duration_s": 831.7842125739488,
+    "end_time_s": 5322.745415516448,
+    "severity": 0.5637639182400234,
+    "targeted_assignment_overlap_count": 37,
+    "targeted_assignment_overlap_s": 831.7842125739489,
+    "targeted_dispatches_while_event_active": 36,
+    "targeted_assignments_crossing_event_start": 1
+  },
+  {
+    "event_type": "robot_degradation",
+    "target_resource_id": 1,
+    "start_time_s": 21061.090959508947,
+    "duration_s": 503.9354725676561,
+    "end_time_s": 21565.026432076604,
+    "severity": 0.4085437440538436,
+    "targeted_assignment_overlap_count": 0,
+    "targeted_assignment_overlap_s": 0,
+    "targeted_dispatches_while_event_active": 0,
+    "targeted_assignments_crossing_event_start": 0
+  }
+]

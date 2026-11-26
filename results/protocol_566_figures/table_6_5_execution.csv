@@ -1,0 +1,9 @@
+mode,sequence,assignments,events_once_in_order,max_abs_duration_error_s,max_start_lag_s,executed_overlaps_operator,executed_overlaps_robot,conflict_expected,conflict_detected,passed
+stepping,S1_single,1,True,0.0,0.0,0,0,False,False,True
+stepping,S2_sequential_B3,5,True,0.0276,0.031,0,0,False,False,True
+stepping,S3_concurrent_disjoint,2,True,0.0,0.0,0,0,False,False,True
+stepping,S4_conflict_control,2,True,0.0,0.0,1,0,True,True,True
+non_stepping_realtime,S1_single,1,True,0.0,0.0,0,0,False,False,True
+non_stepping_realtime,S2_sequential_B3,5,True,0.0276,0.031,0,0,False,False,True
+non_stepping_realtime,S3_concurrent_disjoint,2,True,0.0,0.0,0,0,False,False,True
+non_stepping_realtime,S4_conflict_control,2,True,0.0,0.0,1,0,True,True,True

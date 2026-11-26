@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "coppeliasim_full_version": 4100000,
+    "time_step_s": 0.05,
+    "mode": "setStepping(False), realtime on",
+    "topology": "single machine; localhost ZeroMQ remote API",
+    "timeout_s": 1.0,
+    "warmup": 20,
+    "measured": 200,
+    "hold_s": 1.5,
+    "timestamp": "2026-11-26T16:11:29"
+  },
+  "latency": {
+    "warmup_discarded": 20,
+    "attempted": 200,
+    "timeouts": 0,
+    "unmatched_acks": 0,
+    "timeout_rate": 0.0,
+    "timeout_s": 1.0,
+    "valid_n": 200,
+    "median_ms": 49.223349982639775,
+    "p95_ms": 98.5348999965936,
+    "max_ms": 100.334600021597
+  },
+  "failures": [
+    {
+      "case": "delayed_ack",
+      "attempt_outcomes": [
+        "timeout",
+        "ack"
+      ],
+      "late_ack_after_timeout": true,
+      "event_counts": {
+        "ack": 2,
+        "start": 2,
+        "complete": 2,
+        "release": 2,
+        "reject": 0
+      },
+      "duplicate_execution": true,
+      "lost_completion": false,
+      "inconsistent_occupancy": true,
+      "executions": 2
+    },
+    {
+      "case": "missing_command",
+      "attempt_outcomes": [
+        "timeout",
+        "ack"
+      ],
+      "late_ack_after_timeout": false,
+      "event_counts": {
+        "ack": 1,
+        "start": 1,
+        "complete": 1,
+        "release": 1,
+        "reject": 0
+      },
+      "duplicate_execution": false,
+      "lost_completion": false,
+      "inconsistent_occupancy": false,
+      "executions": 1
+    },
+    {
+      "case": "rejected_invalid_marker",
+      "attempt_outcomes": [
+        "reject",
+        "reject"
+      ],
+      "late_ack_after_timeout": false,
+      "event_counts": {
+        "ack": 0,
+        "start": 0,
+        "complete": 0,
+        "release": 0,
+        "reject": 2
+      },
+      "duplicate_execution": false,
+      "lost_completion": false,
+      "inconsistent_occupancy": false,
+      "executions": 0
+    }
+  ]
+}
