@@ -1,0 +1,16 @@
+{
+  "source": "results\\stage_a_full_20261124_091315_391055\\shift_metrics.csv",
+  "arm_order": [
+    "B1",
+    "B2",
+    "B3a",
+    "B3b",
+    "B3"
+  ],
+  "observations_per_arm": 30,
+  "bar_error_bars": "Unadjusted 95% Student-t confidence intervals for arm means",
+  "scatter_points": "Individual arm-scenario observations; no jitter",
+  "energy_outcome": "Total robot energy per shift, not energy per job",
+  "wellbeing": "Fatigue-derived endpoint index; not an independent measurement",
+  "original_outputs_modified": false
+}

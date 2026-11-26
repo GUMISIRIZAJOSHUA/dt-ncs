@@ -1,0 +1,267 @@
+{
+  "mode": "full",
+  "run_type": "full",
+  "smoke_check": false,
+  "experiment": {
+    "shift_duration_s": 28800,
+    "monitoring_rate_hz": 10,
+    "fatigue_update_rate_hz": 1,
+    "replicates_per_arm": 30,
+    "pilot_replicates_per_arm": 1,
+    "arms": [
+      "B1",
+      "B2",
+      "B3a",
+      "B3b",
+      "B3"
+    ],
+    "disturbances_per_shift": 2,
+    "carbon_profile": "diurnal",
+    "fatigue_noise_sigma": 0.1,
+    "fatigue_critical_threshold": 0.8,
+    "ergonomic_critical_threshold": 0.8,
+    "collision_critical_threshold": 0.8,
+    "safe_zone_critical_threshold": 0.8,
+    "weights": {
+      "productivity": 0.25,
+      "quality": 0.15,
+      "wellbeing": 0.25,
+      "sustainability": 0.2,
+      "collaboration": 0.15
+    },
+    "harrington_soft_thresholds": {
+      "productivity": 0.6,
+      "quality": 0.6,
+      "wellbeing": 0.95,
+      "sustainability": 0.6,
+      "collaboration": 0.6
+    },
+    "harrington_k": 200.0,
+    "harrington_p": 2.0,
+    "supervisory_budget_s": {
+      "8": 2.0,
+      "12": 3.0,
+      "20": 5.0
+    },
+    "job_quantities": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100,
+      "11": 100,
+      "12": 100
+    },
+    "workload_provenance": "user_approved_2026-11-24;synthetic_balanced_100_jobs_per_task_type;1200_jobs_total;selected_after_approved_10_shift_engineering_sizing;results/engineering_workload_sizing_20261124_081316_759450",
+    "disturbance_types": [
+      "operator_absence",
+      "robot_degradation"
+    ],
+    "disturbance_provenance": "user_approved_synthetic_policy_2026-11-24;independent_type_and_target_sampling;two_events_not_one_guaranteed_per_type;legacy_uncalibrated_timing_and_severity;dispatch_time_non_preemptive_effects",
+    "tasks": [
+      {
+        "id": 1,
+        "name": "Screw fastening M6x25",
+        "manual_time_s": 22.5,
+        "robot_time_s": 14.0,
+        "fatigue_coefficient": 2.1,
+        "cognitive_load": 0.35,
+        "robot_energy_kj": 45.2,
+        "defect_risk": 0.015
+      },
+      {
+        "id": 2,
+        "name": "Connector insertion",
+        "manual_time_s": 18.0,
+        "robot_time_s": 12.5,
+        "fatigue_coefficient": 1.8,
+        "cognitive_load": 0.2,
+        "robot_energy_kj": 38.0,
+        "defect_risk": 0.01
+      },
+      {
+        "id": 3,
+        "name": "Wire harness routing",
+        "manual_time_s": 35.0,
+        "robot_time_s": 22.0,
+        "fatigue_coefficient": 4.2,
+        "cognitive_load": 0.65,
+        "robot_energy_kj": 72.5,
+        "defect_risk": 0.032
+      },
+      {
+        "id": 4,
+        "name": "Clip installation",
+        "manual_time_s": 14.5,
+        "robot_time_s": 9.0,
+        "fatigue_coefficient": 1.2,
+        "cognitive_load": 0.15,
+        "robot_energy_kj": 28.1,
+        "defect_risk": 0.008
+      },
+      {
+        "id": 5,
+        "name": "Heavy component positioning",
+        "manual_time_s": 42.0,
+        "robot_time_s": 28.5,
+        "fatigue_coefficient": 5.0,
+        "cognitive_load": 0.75,
+        "robot_energy_kj": 95.0,
+        "defect_risk": 0.045
+      },
+      {
+        "id": 6,
+        "name": "Torque tightening",
+        "manual_time_s": 26.0,
+        "robot_time_s": 16.0,
+        "fatigue_coefficient": 2.5,
+        "cognitive_load": 0.4,
+        "robot_energy_kj": 50.4,
+        "defect_risk": 0.018
+      },
+      {
+        "id": 7,
+        "name": "Small part assembly",
+        "manual_time_s": 11.0,
+        "robot_time_s": 7.5,
+        "fatigue_coefficient": 0.8,
+        "cognitive_load": 0.1,
+        "robot_energy_kj": 18.5,
+        "defect_risk": 0.005
+      },
+      {
+        "id": 8,
+        "name": "Bracket installation",
+        "manual_time_s": 31.5,
+        "robot_time_s": 19.0,
+        "fatigue_coefficient": 3.6,
+        "cognitive_load": 0.55,
+        "robot_energy_kj": 64.0,
+        "defect_risk": 0.025
+      },
+      {
+        "id": 9,
+        "name": "Cable tie routing",
+        "manual_time_s": 20.0,
+        "robot_time_s": 13.0,
+        "fatigue_coefficient": 2.0,
+        "cognitive_load": 0.25,
+        "robot_energy_kj": 41.0,
+        "defect_risk": 0.012
+      },
+      {
+        "id": 10,
+        "name": "Subassembly positioning",
+        "manual_time_s": 48.5,
+        "robot_time_s": 32.0,
+        "fatigue_coefficient": 5.5,
+        "cognitive_load": 0.8,
+        "robot_energy_kj": 110.5,
+        "defect_risk": 0.052
+      },
+      {
+        "id": 11,
+        "name": "Quick connector assembly",
+        "manual_time_s": 16.5,
+        "robot_time_s": 10.5,
+        "fatigue_coefficient": 1.4,
+        "cognitive_load": 0.18,
+        "robot_energy_kj": 31.2,
+        "defect_risk": 0.009
+      },
+      {
+        "id": 12,
+        "name": "Final assembly check",
+        "manual_time_s": 28.0,
+        "robot_time_s": 17.5,
+        "fatigue_coefficient": 2.9,
+        "cognitive_load": 0.45,
+        "robot_energy_kj": 55.0,
+        "defect_risk": 0.021
+      }
+    ]
+  },
+  "arms": {
+    "arms": {
+      "B1": {
+        "name": "Productivity-first",
+        "veto": false,
+        "objective": "productivity"
+      },
+      "B2": {
+        "name": "Weighted sum",
+        "veto": false,
+        "objective": "weighted_sum"
+      },
+      "B3a": {
+        "name": "Veto + weighted sum",
+        "veto": true,
+        "objective": "weighted_sum"
+      },
+      "B3b": {
+        "name": "Veto + Synergy Score",
+        "veto": true,
+        "objective": "multiplicative_synergy"
+      },
+      "B3": {
+        "name": "Proposed DT-NCS",
+        "veto": true,
+        "objective": "multiplicative_synergy_harrington"
+      }
+    }
+  },
+  "safety_semantics": "projected_work_maximum_fatigue_and_ergonomic_risk;existing_geometry_checks;arm_specific_veto",
+  "fatigue_model": "explicit_deterministic_fatigue_kernel_with_recovery",
+  "fatigue_parameter_source": "C:\\Users\\Josh\\dt_ncs_experiment_repair\\configs\\fatigue_synthetic_benchmark.yaml",
+  "fatigue_parameters": {
+    "step_size_s": 0.5,
+    "operators": {
+      "1": {
+        "initial_fatigue": 0.1,
+        "alpha_per_s": 0.001,
+        "beta": 0.0,
+        "rho_per_s": 0.001,
+        "fatigue_limit": 0.8
+      },
+      "2": {
+        "initial_fatigue": 0.1,
+        "alpha_per_s": 0.001,
+        "beta": 0.0,
+        "rho_per_s": 0.001,
+        "fatigue_limit": 0.8
+      }
+    },
+    "task_demands": {
+      "1": 0.5,
+      "2": 0.5,
+      "3": 0.5,
+      "4": 0.5,
+      "5": 0.5,
+      "6": 0.5,
+      "7": 0.5,
+      "8": 0.5,
+      "9": 0.5,
+      "10": 0.5,
+      "11": 0.5,
+      "12": 0.5
+    }
+  },
+  "observation_semantics": "dispatch_termination_time",
+  "reporting_semantics": {
+    "throughput_denominator": "configured_shift_duration_s",
+    "final_fatigue": "maximum_operator_fatigue_at_dispatch_termination",
+    "final_ergonomic_risk": "maximum_operator_endpoint_risk_with_zero_cognitive_load",
+    "post_dispatch_recovery": "not_simulated",
+    "safety_violations": "count_of_executed_assignments_flagged_unsafe_at_selection",
+    "safety_assessment_basis": "projected_work_maximum_fatigue_and_ergonomic_risk;existing_geometry_checks;arm_specific_veto",
+    "veto_events": "unsafe_candidate_count_accumulated_on_successful_veto_enabled_selections",
+    "collision_geometry": "operator_and_robot_ids_used_as_positions",
+    "safe_zone_geometry": "operator_id_used_as_position_with_fixed_zone_center_2_5",
+    "continuous_safety_trace": "not_recorded"
+  }
+}

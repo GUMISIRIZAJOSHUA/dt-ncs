@@ -1,0 +1,431 @@
+{
+  "diagnostic_type": "b3_vs_b3b_selected_assignments",
+  "scenario_seed": 101,
+  "search_seed": 202,
+  "job_count": 12,
+  "operator_count": 2,
+  "robot_count": 2,
+  "shift_duration_s": 28800,
+  "disturbance_events": [],
+  "fatigue_noise_sigma": 0.0,
+  "arms": [
+    "B3b",
+    "B3"
+  ],
+  "results": [
+    {
+      "arm": "B3b",
+      "scenario_seed": 101,
+      "search_seed": 202,
+      "termination_reason": "backlog_exhausted",
+      "completed_tasks": 12,
+      "assignments": [
+        {
+          "iteration": 0,
+          "job_id": 7,
+          "task_id": 7,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 0.0,
+          "completion_time_s": 10.581243763821712,
+          "duration_s": 10.581243763821712,
+          "energy_kj": 18.5,
+          "defect_probability": 0.005,
+          "objective_score": 0.9801589780241722,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 1,
+          "job_id": 4,
+          "task_id": 4,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 10.581243763821712,
+          "completion_time_s": 26.26801652114246,
+          "duration_s": 15.686772757320748,
+          "energy_kj": 28.1,
+          "defect_probability": 0.008,
+          "objective_score": 0.9686800050262523,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 2,
+          "job_id": 11,
+          "task_id": 11,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 26.26801652114246,
+          "completion_time_s": 42.139882166875026,
+          "duration_s": 15.871865645732568,
+          "energy_kj": 31.2,
+          "defect_probability": 0.009,
+          "objective_score": 0.9636596028408831,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 3,
+          "job_id": 2,
+          "task_id": 2,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 42.139882166875026,
+          "completion_time_s": 61.61311731389388,
+          "duration_s": 19.47323514701886,
+          "energy_kj": 38.0,
+          "defect_probability": 0.01,
+          "objective_score": 0.957484815299578,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 4,
+          "job_id": 9,
+          "task_id": 9,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 61.61311731389388,
+          "completion_time_s": 80.85174233902427,
+          "duration_s": 19.238625025130386,
+          "energy_kj": 41.0,
+          "defect_probability": 0.012,
+          "objective_score": 0.948637430998741,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 5,
+          "job_id": 1,
+          "task_id": 1,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 80.85174233902427,
+          "completion_time_s": 105.19328627279785,
+          "duration_s": 24.341543933773576,
+          "energy_kj": 45.2,
+          "defect_probability": 0.015,
+          "objective_score": 0.9017603530487939,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 6,
+          "job_id": 6,
+          "task_id": 6,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 105.19328627279785,
+          "completion_time_s": 130.20349880546735,
+          "duration_s": 25.0102125326695,
+          "energy_kj": 50.4,
+          "defect_probability": 0.018,
+          "objective_score": 0.8823480425690218,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 7,
+          "job_id": 12,
+          "task_id": 12,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 130.20349880546735,
+          "completion_time_s": 160.49519792305225,
+          "duration_s": 30.291699117584894,
+          "energy_kj": 55.0,
+          "defect_probability": 0.021,
+          "objective_score": 0.8041492191494488,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 8,
+          "job_id": 8,
+          "task_id": 8,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 160.49519792305225,
+          "completion_time_s": 190.7960323376326,
+          "duration_s": 30.300834414580354,
+          "energy_kj": 64.0,
+          "defect_probability": 0.025,
+          "objective_score": 0.6983505763069635,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 9,
+          "job_id": 3,
+          "task_id": 3,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 190.7960323376326,
+          "completion_time_s": 228.66065623461373,
+          "duration_s": 37.864623896981115,
+          "energy_kj": 72.5,
+          "defect_probability": 0.032,
+          "objective_score": 0.5623648573155788,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 10,
+          "job_id": 5,
+          "task_id": 5,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 228.66065623461373,
+          "completion_time_s": 269.06176878738756,
+          "duration_s": 40.40111255277381,
+          "energy_kj": 95.0,
+          "defect_probability": 0.045,
+          "objective_score": 0.5946861644038254,
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 11,
+          "job_id": 10,
+          "task_id": 10,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 269.06176878738756,
+          "completion_time_s": 321.5313190446328,
+          "duration_s": 52.46955025724526,
+          "energy_kj": 110.5,
+          "defect_probability": 0.052,
+          "objective_score": 0.5867064524274613,
+          "vetoed": false,
+          "safety_violation": false
+        }
+      ]
+    },
+    {
+      "arm": "B3",
+      "scenario_seed": 101,
+      "search_seed": 202,
+      "termination_reason": "backlog_exhausted",
+      "completed_tasks": 12,
+      "assignments": [
+        {
+          "iteration": 0,
+          "job_id": 7,
+          "task_id": 7,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 0.0,
+          "completion_time_s": 10.581243763821712,
+          "duration_s": 10.581243763821712,
+          "energy_kj": 18.5,
+          "defect_probability": 0.005,
+          "objective_score": [
+            1.0,
+            0.9801589780241722
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 1,
+          "job_id": 4,
+          "task_id": 4,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 10.581243763821712,
+          "completion_time_s": 26.26801652114246,
+          "duration_s": 15.686772757320748,
+          "energy_kj": 28.1,
+          "defect_probability": 0.008,
+          "objective_score": [
+            1.0,
+            0.9686800050262523
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 2,
+          "job_id": 11,
+          "task_id": 11,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 26.26801652114246,
+          "completion_time_s": 42.139882166875026,
+          "duration_s": 15.871865645732568,
+          "energy_kj": 31.2,
+          "defect_probability": 0.009,
+          "objective_score": [
+            1.0,
+            0.9636596028408831
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 3,
+          "job_id": 2,
+          "task_id": 2,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 42.139882166875026,
+          "completion_time_s": 61.61311731389388,
+          "duration_s": 19.47323514701886,
+          "energy_kj": 38.0,
+          "defect_probability": 0.01,
+          "objective_score": [
+            1.0,
+            0.957484815299578
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 4,
+          "job_id": 9,
+          "task_id": 9,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 61.61311731389388,
+          "completion_time_s": 80.85174233902427,
+          "duration_s": 19.238625025130386,
+          "energy_kj": 41.0,
+          "defect_probability": 0.012,
+          "objective_score": [
+            1.0,
+            0.948637430998741
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 5,
+          "job_id": 1,
+          "task_id": 1,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 80.85174233902427,
+          "completion_time_s": 105.19328627279785,
+          "duration_s": 24.341543933773576,
+          "energy_kj": 45.2,
+          "defect_probability": 0.015,
+          "objective_score": [
+            0.8997793753769558,
+            0.9017603530487939
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 6,
+          "job_id": 6,
+          "task_id": 6,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 105.19328627279785,
+          "completion_time_s": 130.20349880546735,
+          "duration_s": 25.0102125326695,
+          "energy_kj": 50.4,
+          "defect_probability": 0.018,
+          "objective_score": [
+            0.8651231590066035,
+            0.8823480425690218
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 7,
+          "job_id": 12,
+          "task_id": 12,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 130.20349880546735,
+          "completion_time_s": 160.49519792305225,
+          "duration_s": 30.291699117584894,
+          "energy_kj": 55.0,
+          "defect_probability": 0.021,
+          "objective_score": [
+            0.6370575633669983,
+            0.8041492191494488
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 8,
+          "job_id": 8,
+          "task_id": 8,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 160.49519792305225,
+          "completion_time_s": 190.7960323376326,
+          "duration_s": 30.300834414580354,
+          "energy_kj": 64.0,
+          "defect_probability": 0.025,
+          "objective_score": [
+            0.4094986457703771,
+            0.6983505763069635
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 9,
+          "job_id": 3,
+          "task_id": 3,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 190.7960323376326,
+          "completion_time_s": 228.66065623461373,
+          "duration_s": 37.864623896981115,
+          "energy_kj": 72.5,
+          "defect_probability": 0.032,
+          "objective_score": [
+            0.20451251621870525,
+            0.5623648573155788
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 10,
+          "job_id": 5,
+          "task_id": 5,
+          "operator_id": 2,
+          "robot_id": 1,
+          "start_time_s": 228.66065623461373,
+          "completion_time_s": 269.06176878738756,
+          "duration_s": 40.40111255277381,
+          "energy_kj": 95.0,
+          "defect_probability": 0.045,
+          "objective_score": [
+            0.31796935845471697,
+            0.5946861644038254
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        },
+        {
+          "iteration": 11,
+          "job_id": 10,
+          "task_id": 10,
+          "operator_id": 1,
+          "robot_id": 2,
+          "start_time_s": 269.06176878738756,
+          "completion_time_s": 321.5313190446328,
+          "duration_s": 52.46955025724526,
+          "energy_kj": 110.5,
+          "defect_probability": 0.052,
+          "objective_score": [
+            0.3560166882916076,
+            0.5867064524274613
+          ],
+          "vetoed": false,
+          "safety_violation": false
+        }
+      ]
+    }
+  ]
+}

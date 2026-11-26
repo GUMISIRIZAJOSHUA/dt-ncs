@@ -1,0 +1,5260 @@
+{
+  "diagnostic_type": "b3_vs_b3b_short_shift_tradeoff_sweep",
+  "scenario_seed": 101,
+  "search_seed": 202,
+  "job_count": 12,
+  "operator_count": 2,
+  "robot_count": 2,
+  "shift_durations_s": [
+    60,
+    120,
+    180,
+    240,
+    300,
+    450,
+    600,
+    900,
+    1200
+  ],
+  "disturbance_events": [],
+  "fatigue_noise_sigma": 0.0,
+  "arms": [
+    "B3b",
+    "B3"
+  ],
+  "initial_fatigue_offsets": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "divergence_found": true,
+  "results": [
+    {
+      "scenario_seed": 101,
+      "search_seed": 202,
+      "shift_duration_s": 60,
+      "operator_1_initial_fatigue": 0.0,
+      "operator_2_initial_fatigue": 0.0,
+      "b3b_completed_tasks": 4,
+      "b3_completed_tasks": 4,
+      "b3b_termination": "no_fitting_assignment",
+      "b3_termination": "no_fitting_assignment",
+      "b3b_sequence": [
+        [
+          7,
+          2,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          11,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "b3_sequence": [
+        [
+          7,
+          2,
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          11,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "divergent": false,
+      "arm_results": {
+        "B3b": {
+          "arm": "B3b",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.0,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 4,
+          "assignment_sequence": [
+            [
+              7,
+              2,
+              1
+            ],
+            [
+              4,
+              1,
+              2
+            ],
+            [
+              11,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 42.139882166875026,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            }
+          ]
+        },
+        "B3": {
+          "arm": "B3",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.0,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 4,
+          "assignment_sequence": [
+            [
+              7,
+              2,
+              1
+            ],
+            [
+              4,
+              1,
+              2
+            ],
+            [
+              11,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8131150748289467,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8293340978273027,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8681666760449145,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8806155843564959,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6519524291421834,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6825797424084518,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8981213974731254,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.9076448033250204,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5541880753895795,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5989150072481642,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7799048810645246,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7996733610976994,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.926983497454297,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.9338380382753191,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7064043695858208,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7324425405520798,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8472644454960025,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8613851065523978,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.452293708445283,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5239403480625945,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8814467053243358,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8925337335311627,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7552459287692036,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7771830346881008,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7816207009607253,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7828799847597361,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8449197388975899,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8392040072557398,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5816923813407113,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6142847776300989,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8805966481450279,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8701262151596891,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.4206463452324441,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.5047675767057167,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7401196423202204,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7478656945092776,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6503727492516538,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6713647128352792,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8204378791470147,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8176666321259969,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.3617258334931743,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8607469448221842,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8528441166671056,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7101430449201406,
+              "safe": true
+            },
+            {
+              "current_time_s": 10.581243763821712,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7222052953071827,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.6361640544972526,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7176131115853209,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.730254506263551,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8008832212458562,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.17529203240577737,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.5515687935670118,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6525380110834555,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.49314511769205166,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.6933920715455074,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7681654208037945,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.7542357829142067,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8221369556390353,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.481175816320003,
+              "safe": true
+            },
+            {
+              "current_time_s": 26.26801652114246,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6043650109216452,
+              "safe": true
+            },
+            {
+              "current_time_s": 42.139882166875026,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.72742,
+              "synergy_score": 0.37016885033256364,
+              "safe": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenario_seed": 101,
+      "search_seed": 202,
+      "shift_duration_s": 60,
+      "operator_1_initial_fatigue": 0.0,
+      "operator_2_initial_fatigue": 0.1,
+      "b3b_completed_tasks": 3,
+      "b3_completed_tasks": 3,
+      "b3b_termination": "no_fitting_assignment",
+      "b3_termination": "no_fitting_assignment",
+      "b3b_sequence": [
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          2
+        ]
+      ],
+      "b3_sequence": [
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          2
+        ]
+      ],
+      "divergent": false,
+      "arm_results": {
+        "B3b": {
+          "arm": "B3b",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.1,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 3,
+          "assignment_sequence": [
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              4,
+              2,
+              1
+            ],
+            [
+              11,
+              1,
+              2
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            }
+          ]
+        },
+        "B3": {
+          "arm": "B3",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.1,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 3,
+          "assignment_sequence": [
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              4,
+              2,
+              1
+            ],
+            [
+              11,
+              1,
+              2
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8131150748289467,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.8077745183220363,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8681666760449145,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.857722878323729,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6519524291421834,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.6648352263398459,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8981213974731254,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.8840494388620215,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5541880753895795,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.5833454608500457,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7799048810645246,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.7788848496256684,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.926983497454297,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.9095617478346105,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7064043695858208,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.713401778538988,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8472644454960025,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.8389923208969888,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.452293708445283,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.510319861916341,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8814467053243358,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.86933120027031,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7552459287692036,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9,
+              "synergy_score": 0.7569791874443916,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7568550980763336,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7987371903173527,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8199884675334471,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8576374126515787,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.5538792134948445,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6206765733442474,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8557156083191126,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8901415873380951,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.37334001714617415,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5010859209064816,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7148932965532026,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7616984490824792,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6241428361017998,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6810637417885962,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.795513685705571,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8350557733947142,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.3176782339894883,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8358428838814603,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8719784210220252,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6846535977222925,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7346628982657145,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6779770335508519,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.6823580788793238,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.775394044139796,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.7598473044913493,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.27365701725932934,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5920243650694385,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.6224795056817933,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.1876853749247784,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.4785423803180466,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7371927073290645,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.7294080501997293,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8002720893853575,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.7796190264681218,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5220356765221116,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7999,
+              "synergy_score": 0.5783892539979124,
+              "safe": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenario_seed": 101,
+      "search_seed": 202,
+      "shift_duration_s": 60,
+      "operator_1_initial_fatigue": 0.0,
+      "operator_2_initial_fatigue": 0.2,
+      "b3b_completed_tasks": 3,
+      "b3_completed_tasks": 3,
+      "b3b_termination": "no_fitting_assignment",
+      "b3_termination": "no_fitting_assignment",
+      "b3b_sequence": [
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          2
+        ]
+      ],
+      "b3_sequence": [
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          2
+        ]
+      ],
+      "divergent": false,
+      "arm_results": {
+        "B3b": {
+          "arm": "B3b",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.2,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 3,
+          "assignment_sequence": [
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              4,
+              2,
+              1
+            ],
+            [
+              11,
+              1,
+              2
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            }
+          ]
+        },
+        "B3": {
+          "arm": "B3",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.2,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 3,
+          "assignment_sequence": [
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              4,
+              2,
+              1
+            ],
+            [
+              11,
+              1,
+              2
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8131150748289467,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.7843357640803904,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8681666760449145,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.8328347996625843,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6519524291421834,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.6455440638583424,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8981213974731254,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.8583974566999759,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5541880753895795,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.5664188426110275,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7799048810645246,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.7562843712015159,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.926983497454297,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.8831694888668696,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7064043695858208,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.6927013868040979,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8472644454960025,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.8146477366422367,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.452293708445283,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.4955121877984021,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8814467053243358,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.8441062892393737,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7552459287692036,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8,
+              "synergy_score": 0.7350143337158954,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7568550980763336,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.7944098681642481,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8199884675334471,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.8529909864927767,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.5538792134948445,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.6173139310154503,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8557156083191126,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.8853190631624555,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.37334001714617415,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.4983711854059525,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7148932965532026,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.7575717918882768,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6241428361017998,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.6773739396193155,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.795513685705571,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.8305316878868726,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.31595714715871775,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8358428838814603,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.8672542995161533,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6846535977222925,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.9785046555143395,
+              "synergy_score": 0.7306827116996348,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6779770335508519,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.6777269717964172,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.775394044139796,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.7546902845297233,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.2717997300224021,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5920243650694385,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.6182547894558761,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.1876853749247784,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.4752945532964896,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7371927073290645,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.7244576189054199,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8002720893853575,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.7743278174867977,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5220356765221116,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7784046555143396,
+              "synergy_score": 0.5744637746143224,
+              "safe": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenario_seed": 101,
+      "search_seed": 202,
+      "shift_duration_s": 60,
+      "operator_1_initial_fatigue": 0.0,
+      "operator_2_initial_fatigue": 0.3,
+      "b3b_completed_tasks": 3,
+      "b3_completed_tasks": 3,
+      "b3b_termination": "no_fitting_assignment",
+      "b3_termination": "no_fitting_assignment",
+      "b3b_sequence": [
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          11,
+          1,
+          2
+        ]
+      ],
+      "b3_sequence": [
+        [
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          11,
+          2,
+          1
+        ]
+      ],
+      "divergent": true,
+      "arm_results": {
+        "B3b": {
+          "arm": "B3b",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.3,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 3,
+          "assignment_sequence": [
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              4,
+              2,
+              1
+            ],
+            [
+              11,
+              1,
+              2
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            },
+            {
+              "current_time_s": 25.848313510842168,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": null,
+              "synergy_score": null,
+              "safe": true
+            }
+          ]
+        },
+        "B3": {
+          "arm": "B3",
+          "scenario_seed": 101,
+          "search_seed": 202,
+          "shift_duration_s": 60,
+          "operator_1_initial_fatigue": 0.0,
+          "operator_2_initial_fatigue": 0.3,
+          "termination_reason": "no_fitting_assignment",
+          "completed_tasks": 3,
+          "assignment_sequence": [
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              4,
+              1,
+              2
+            ],
+            [
+              11,
+              2,
+              1
+            ]
+          ],
+          "candidate_trace": [
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8131150748289467,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.7585846170895848,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8681666760449145,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.8054913425268324,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6519524291421834,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.6243496968043949,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8981213974731254,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.8302147317799515,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5541880753895795,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.5478222981941856,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7799048810645246,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.7314542016471627,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.926983497454297,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 7,
+              "task_id": 7,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.8541734537921839,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7064043695858208,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.6699587604325443,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8472644454960025,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.7879013933378515,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.452293708445283,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.479243635772481,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8814467053243358,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.8163927689263579,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 1.0,
+              "synergy_score": 0.7552459287692036,
+              "safe": true
+            },
+            {
+              "current_time_s": 0.0,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.7,
+              "synergy_score": 0.7108824975627157,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7568550980763336,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.7732856003539943,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8199884675334471,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.8303089796843208,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.5538792134948445,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 3,
+              "task_id": 3,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.6008988469079165,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8557156083191126,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 4,
+              "task_id": 4,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.8617774157871737,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.37334001714617415,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 5,
+              "task_id": 5,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.4851189250661395,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.7148932965532026,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.7374270906972878,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6241428361017998,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.6593617911281707,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.795513685705571,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.8084468995390558,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 10,
+              "task_id": 10,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.3075554849178295,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.8358428838814603,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.8441930148862077,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.9032,
+              "synergy_score": 0.6846535977222925,
+              "safe": true
+            },
+            {
+              "current_time_s": 11.900310367622637,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 0.8785046555143395,
+              "synergy_score": 0.7112530219326464,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7031000000000001,
+              "synergy_score": 0.5990468527514422,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 1,
+              "task_id": 1,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.704168266106182,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7031000000000001,
+              "synergy_score": 0.6970454303253486,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 2,
+              "task_id": 2,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.792147745363113,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7031000000000001,
+              "synergy_score": 0.5044142289944143,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 6,
+              "task_id": 6,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.6326058265756577,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 8,
+              "task_id": 8,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.44118780519316375,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7031000000000001,
+              "synergy_score": 0.6588210701015331,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 9,
+              "task_id": 9,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.757574339622512,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7031000000000001,
+              "synergy_score": 0.7218035989891165,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 11,
+              "task_id": 11,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.8146007546447389,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 1,
+              "robot_id": 2,
+              "wellbeing": 0.7031000000000001,
+              "synergy_score": 0.41699208453466363,
+              "safe": true
+            },
+            {
+              "current_time_s": 27.587083124943383,
+              "job_id": 12,
+              "task_id": 12,
+              "operator_id": 2,
+              "robot_id": 1,
+              "wellbeing": 1.0,
+              "synergy_score": 0.5783738079218901,
+              "safe": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
