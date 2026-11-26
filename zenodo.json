@@ -1,0 +1,12 @@
+{
+  "title": "DT-NCS: event-triggered digital-twin scheduling for human-robot collaborative assembly",
+  "upload_type": "software",
+  "version": "v1.0.0",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Gumisiriza, Joshua",
+      "affiliation": "School of Mechanical and Electrical Engineering, Henan University of Technology, Zhengzhou 450001, China; School of Design and Art, Henan University of Technology, Zhengzhou 450001, China"
+    }
+  ]
+}
